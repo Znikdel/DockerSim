@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/iCanCloud/simulations/SaaS/results/General-*.vec"/>
+    <inputs name="/iCanCloud/simulations/SaaS/results/General-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="test">
+      <items xsi:type="scave:Add" filterPattern=""/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default"/>
+  </chartSheets>
+</scave:Analysis>

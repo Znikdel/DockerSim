@@ -1,0 +1,11 @@
+#! /bin/sh
+DIR=`dirname $0`
+
+set -x
+echo $DIR
+
+if [ -x $DIR/iCanCloud -o -x $DIR/iCanCloud.exe ]; then
+  $DIR/iCanCloud -n $DIR/../simulations:$DIR $*
+else
+  opp_run -l $DIR/../iCanCloud -n:$DIR/../:$DIR/../simulations:$DIR $*
+fi

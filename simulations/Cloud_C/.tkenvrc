@@ -1,0 +1,5 @@
+# Partial OMNeT++/Tkenv config file -- see $HOME/.tkenvrc as well
+config default-configname	{}
+config default-runnumber	{}
+inspector {Cloud_C.rc_0_Rack_B_32[4].hypervisor.VM_Medium:u27274:p27280.osModule} VmOperatingSystemModule 27281 2 411x373+994+258:normal
+

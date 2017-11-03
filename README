@@ -1,0 +1,20 @@
+First of all, thanks for using iCanCloud.
+iCanCloud is a cloud computing simulation platform. 
+This is the version 1.0. It has been tested with Ubuntu 14. 
+
+How to launch a simulation?
+
+$> cd simulations/Cloud_A/
+$> ./run -u Cmdenv
+
+The results of energy consumption of the datacenter and the tenants (simulated users) executions will be allocated at simulations/Cloud_A/results.
+
+It is open source so, you can modify and use it for free.
+
+We are a small group investing lots of efforts and time to develope it. So if you have any suggestion, question, or you want to contribute with this project with new modules, application models, or whatever, don't hesitate to send us an email at: icancloud@arcos.inf.uc3m.es
+
+Enjoy!
+
+Gabriel G. Castañé.-
+
+P.S: If you detect any bug, send us an email and we will solve it as soon as possible !!

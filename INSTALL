@@ -1,0 +1,7 @@
+IMPORTANT: This version of iCanCloud works with OMNeT++ 4.6 and INET 2.5
+
+1.- Download omnetpp 4.6 from the webpage: http://www.omnetpp.org/
+2.- Download from the same webpage inet and install it. If you open the graphical IDE of omnet (writing omnetpp at terminal), it will give to you the option for installing directly.
+3.- Copy the folder iCanCloud inside the folder omnetpp.
+4.- Execute the command "make"
+5.- Simulate ..  ;-). 

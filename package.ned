@@ -1,0 +1,3 @@
+package icancloud;
+
+@license(LGPL);

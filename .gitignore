@@ -1,0 +1,46 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Editors temporary files 
+*~
+#do not push auto generated msg cc and h files
+*_m.h
+*_m.cc
+# do not push out folder
+out/
+
+# disable measurement file such as vec and sca
+*.sca
+*.vec
+*.log
+*.elog
+*.txt
+*.tkenvlog
+simulations/Container_B/results/General-0.elog
+
